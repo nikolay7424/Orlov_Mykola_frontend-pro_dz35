@@ -16,7 +16,6 @@ function PhoneInput(props) {
     const [phoneValue, setPhoneValue] = useState("")
 
     function updateUser(e) {
-        console.log(e)
         return {
             firstName: e.target[0].value,
             lastName: e.target[1].value,
